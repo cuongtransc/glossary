@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glossary</title>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="lib/bootstrap-css/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="lib/bootstrap-css/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="lib/bootstrap-css/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript">
+//        var API_URL = '/api/search';
+        var API_URL = '/api/glossary';
+
+        var app = angular.module('app', []);
+
+        app.directive('ngEnter', function () {
+            return function (scope, element, attrs) {
+                element.bind("keydown keypress", function (event) {
+                    if (event.which === 13) {
+                        scope.$apply(function () {
+                            scope.$eval(attrs.ngEnter);
+                        });
+
+                        event.preventDefault();
+                    }
+                });
+            };
+        });
+
+        app.controller('Ctrl', function ($scope, $http) {
+            $scope.find = function (letter) {
+                if (letter == undefined || letter == '') return;
+//                $http.post(API_URL, {data: letter}, {timeout: 3000}).success(function (response) {
+                $http.get(API_URL + '/' + letter, {timeout: 3000}).success(function (response) {
+                    console.log(response)
+
+                    $scope.data = response
+
+//                    if(response.error_code == 0){
+//                        $scope.data = response.data;
+//                    }else{
+//                        alert(response.msg);
+//                        $scope.data = response.data
+//                    }
+                }).error(function (response) {
+                    console.log(response)
+                })
+            }
+        })
+    </script>
+
+    <style type="text/css">
+        #find {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    </style>
+
+</head>
+
+<body ng-app="app" ng-controller="Ctrl">
+<div class="container">
+    <center>
+        <div id="find" class="input-group ">
+            <input type="text" class="form-control"
+                   placeholder="Enter something..." ng-model="letter" ng-enter="find(letter)">
+
+            <div class="input-group-btn">
+                <button type="submit" class="btn btn-success" ng-click="find(letter)">
+                    <span class="glyphicon glyphicon-search"></span>
+                </button>
+            </div>
+        </div>
+    </center>
+
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="col-md-6 text-center">English</th>
+                <th class="col-md-6 text-center">Vietnamese</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td ng-bind="data.en_term"></td>
+                <td ng-bind="data.vi_term"></td>
+            </tr>
+            <tr>
+                <td ng-bind="data.en_desc"></td>
+                <td ng-bind="data.vi_desc"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>

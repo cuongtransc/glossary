@@ -1,0 +1,52 @@
+<div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" rel="home" href="<?= base_url();?>" title="Glossary">Glossary</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <div class="col-sm-6 col-md-6">
+            <form class="navbar-form" role="search" method="get" id="search-form" name="search-form">
+                <div class="btn-group pull-left" style="margin-right:10px;">
+                    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#">Accounting <span
+                            class="caret"></span></a>
+
+                    <div class="dropdown-menu multi">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#"><strong>Accounting</strong></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="text" class="form-control"
+                           placeholder="Enter something..." ng-model="letter" ng-enter="find(letter)">
+
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-success" ng-click="find(letter)">
+                                <span
+                                        class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--<div class="col-sm-2 col-md-2">-->
+            <!--<form class="navbar-form navbar-right" role="search">-->
+                <!--<div class="input-group"><a href="#" class="btn btn-warning">Post Your Ads</a></div>-->
+            <!--</form>-->
+        <!--</div>-->
+        <ul class="nav navbar-nav navbar-right">
+            <li><a data-toggle="modal" href="#" data-target="#">Login</a></li>
+            <li><a data-toggle="modal" href="#" data-target="#">Register</a></li>
+        </ul>
+    </div>

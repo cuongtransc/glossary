@@ -1,0 +1,35 @@
+{
+	"baseName": "myapp",
+	"entities": [
+		{
+			"name": "user",
+			"attrs": [
+				{
+					"attrName": "username",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "firstname",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "lastname",
+					"attrType": "String",
+					"minLength": "",
+					"maxLength": "",
+					"enumValues": [],
+					"required": false
+				}
+			]
+		}
+	],
+	"resources": []
+}
