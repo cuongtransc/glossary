@@ -107,12 +107,13 @@ crashlytics-build.properties
 
 # ignore sqlite database
 *.db
-db_repository
+db_repository/
 
 # ignore virtualenv, node module
-flask
-node_modules
+flask/
+node_modules/
 
 # ignore backup, tmp
 bak/
 tmp/
+
