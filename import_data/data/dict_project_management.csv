@@ -1,0 +1,235 @@
+en_term;en_desc;vi_term;vi_desc
+Acceptance;;;Đây là một chiến lược trong tiến trình hoạch định phương án đối phó rủi ro. Khi sử dụng chiến lược này, tổ chức sẵn sàng chấp nhận các hậu quả mà rủi ro gây ra nếu nó xảy ra
+Acceptance Criteria;;;Là những tiêu chuẩn bao gồm các yêu cầu trong quá trình thức hiện và các điều kiện phải được tuân thủ và hoàn thành trước khi bàn giao dự án được chấp thuận.
+Acquire Project Team;; Có được nhóm dự án;Một quy trình nhằm mục đích xác nhận lại lực với bên bộ phận quản lý nguồn nhân lực rằng nguồn nhân lực cần thiết đã được bố trí đủ để hoàn thành dự án.
+Activity;;;Một thành phần của công việc thực hiện trong quá trình của một dự án.
+Activity Attributes;;; Nhiều thuộc tính với mổi thuộc tính được gán vào lịch trình công việc và có thể bao gồm trong bảng liệt kê Activities. Thuộc tính của Activity bao gồm: Mã Activity, Công việc trước đó, công việc sau đó, mối quan hệ, thời gian chéo nhau, yêu cầu về nguồn lực, ngày khả thi, các ràng buôc và các giả định.
+Activity Code;;;Được tạo thành từ một hoặc nhiều ký tự, con số dùng để nhận biết đặt điểm công việc hoặc để phân loại lịch trình các Activities cho phép dễ dàng yêu cầu hoặc tìm kiếm Activities đó.
+Activity definition;;;Đây là tiến trình xác định các công việc cần thiết để tạo nên sản phẩm hay dịch vụ của dự án
+Activity duration;;;Thời gian cần thiết để hoàn thành một công việc
+Activity Identifier;;;Là một ký tự hay con số dùng để nhận dạng được gán vào mổi Activity nhằm phân biệt giữa các Activities với nhau trong dự án. Thông thường nó duy nhất trong một sơ đồ dự án.
+Activity list;;;đây là một dạng mở rộng của WBS, nó chứa tất cả các công việc của dự án và bản mô tả cho từng công việc. danh sách công việc là kết quả của tiến trình xác định cộng việc
+Activity squence;;;sắp xếp công việc theo một trình tự logic và xác định xem thử liệu có mối quan hệ phụ thuộc giữa các công việc
+Actual cost;;;là khoản chi phí thực tế đã phát sinh cho đến thời điểm xem xét, bao gồm cả chi phí trực tiếp và gián tiếp, thường được viết tắt là AC
+Actual Duration;;; Là đơn vị thời gian lịch trình một activities giữa ngày bắt đầu thực tế của lịch trình công việc với ngày cập nhật (data date) của tiến độ dự án so được so sánh với ngày kết thúc của một activity. (Thời lượng thực tế (Actual Duration) còn được đo bằng đơn vị giờ, ngày, tháng, năm.))
+Administer Procurements;;;Quá trình quản lý mối liên quan trong mua sắm, thực hiện hợp đồng giám sát và kiểm soát các thay đổi và chỉnh sửa khi cần thiết.
+Alternative identification;;;là một kỹ thuật để phát hiện ra các phương pháp hay các cách thức khác để hoàn thành dự án. Đây là một công cụ trong tiến trình hoạch định phạm vi.
+Analogous estimating;;;sử dụng dữ liệu của dự án đã hoàn tất trước đó để ước tính co dự án hiện tại
+Application Area;; Lĩnh Vực Ứng Dụng;Một loại dự án có các thành phần tương tự phổ biến đáng kể xảy ra trong các dự án, nhưng không nhất thiết phải  hiện diện trong tất cả các sản phẩm. Lĩnh vực ứng dụng thường được xác định về sản phẩm (ví dụ, công nghệ tương tự hoặc các phương pháp sản xuất giống nhau) hoặc các loại khách hàng (ví dụ, hông tin nội bộ so với bên ngoài, chính phủ so với thương mại) hoặc trong các ngành công nghiệp (ví dụ như các tiện ích, ô tô, hàng không vũ trụ, thoặc các ngành công nghiệp công nghệ, vv). Các lĩnh vực ứng dụng có thể chồng chéo lên nhau.
+Appraisal cost;;;là một loại chi phí chất lượng liên quan đến việc kiểm tra sản phẩm hay tiến trình để đảm bảo rằng đáp ứng được các yêu cầu của dự án
+Approved Change Request;;; Một yêu cầu thay đổi đã được xử lý qua quy trình kiểm soát tích hợp sự thay đổi và được chấp thuận.
+Assumptions;;;là các sự kiện hay điều kiện mà người lập kế hoạch tin rằng đúng, sẽ xảy ra. các giả định của dự án phải luôn được ghi lại bằng văn bản
+Authority;;;Là quyền để  áp dụng quản lý nguồn lực của dự án, nền tảng ra quyết định, hoặc để phê duyệt một việc nào đó.
+Avoidance;;;là một tong chiến lược đối phó rủi ro, chiến lược này đòi hỏi phải thay đổi kế hoạch dự án để tránh hoặc loại bỏ các sự kiện gây rủi ro và tác động của sự kiện này với mục tiêu dự án.
+BAC;;;Là tổng của tất cả ngân sách đã dùng cho việc thực hiện công việc trong một dự án, hoặc WBS hay Activity. Nó cũng được xem như tổng giá trị kế hoạch cho dự án.
+Backward pass;;;là một phép tính trong sơ đồ kỹ thuật mạng nhằm xác định các thời điểm bắt đầu muộn và kết thúc muộn của các sự kiện và công việc.
+Balance matrix;;;là một hình thức tổ chức dự án trong đó quyền lực của nhà quản trị dự án và quyền lực của nhà quản trị chức năng được cân bằng
+Baseline ;;;Là kế hoạch của dự án được chấp thuận, có thể chẩn nhận một sai số thêm vào hoặc bớt đi. Nó là cơ sở để so sánh quá trình thực hiện công việc so với kế hoặc đề ra với sai số cho phép. Thường được tham khảo so sánh với với baseline ở thời điểm hiện tại. Nhưng cũng có thể được so sánh với bản gốc. Thường được sử dụng với một vài sửa đổi (ví dụ, Đường cơ sở chi phí thực hiện, Đường cơ sở tiến độ , Đường cơ sởđo lường hiệu suất , Đường cơ sở kỹ thuật )
+Baseline ;;;Kế hoạch gốc, kế hoạch đã được phê duyệt nhằm làm cơ sơ đo lường tiến triển của dự án, baseline thường là các kế hoạch bạn đầu về phạm vi, chi phí, thời gian…đã được phê duyệt trong các tiến trình hoạch định. Khi dự án thực hiện, người kiểm soát sẽ đo lường tình hình thực tế để đánh giá xem thực tế có tiến triển theo đúng kế hoạch hay không. Các thay đổi lớn về phạm vi, chi phí hay thời gian đôi khi đòi hỏi phải thay đổi baseline
+Benchmarking;;;so sánh các công việc của dự án hiện tại với các công việc của dự án tương tự trước đó để đưa ra một tiêu chuẩn nhằm đánh giá tình hình thực hiện. công cụ này thường được dùng để cải thiện tình hình chất lượng trong dự án.
+Bennefit measurement mehods;;;là một nhóm các phương pháp để lựa chọn dự án. các phương pháp này dùng nhiều cách tiếp cận để so sánh và phân tích nhằm đưa ra quyết định lựa chọn . nằm trong nhóm này gồm phương pháp: phân tích lợi nhuận/chi phí, mô hình cho điểm,…
+Bottom-up Estimating;;Phương Pháp Ước Lượng Từ Dưới Lên;Một phương pháp ước lượng một thành phần của công việc. Công việc được chia nhỏ vào chi tiết hơn. Một ước tính từ những gì cần thiết để đáp ứng các yêu cầu của công viêc ở cấp độ nhỏ hơn, phần chi tiết hơn về công việc, và các ước tính này sau đó được tổng hợp thành một tổng số lượng cho thành phần công việc. Độ chính xác của dự toán từ dưới lên là dựa vào kích thước và độ phức tạp của công việc được xác định ở cấp thấp hơn và tổng hợp lên.
+Brainstorming;;; Một tập hợp dữ liệu nói chung và kỹ thuật sáng tạo có thể được sử dụng để xác định các rủi ro, ý kiến, hoặc giải pháp cho các vấn đề bằng cách sử dụng một nhóm các thành viên trong nhóm hoặc các chuyên gia. Thông thường, một phiên làm việc động não có cấu trúc sao cho mỗi người tham gia ý tưởng được ghi lại để phân tích sau đó.
+Break-even analysis;;;là một kỹ thuật để phân tích đánh giá lựa chọn dự án, trong đó cân nhắc mối quan hệ giữa chi phí biến đổi của một dự án. tỉ lệ chi phí cố định càng lớn thì sản lượng (doanh thu) hoà vốn càng lớn và mức độ rủi ro cao.
+Budget;;; Là ngân quỹ dự toán cho dự án được chấp thuận hoặc cho WBS hoặc một và lịch trình công việc. Tham khảo thêm Estimate.
+Budget at Complettion (BAC);;;
+Buffering;;;đây là kỹ thuật sắp xếp tiến độ trong đó định thêm một khoảng thời gian dự phòng cho từng công việc hoặc cho toàn bộ dự án.
+Bussness case;;;là tài liệu đầu tiên được xây dựng để đề xuất ý tưởng về dự án với các thành phần cốt lõi: các cơ hội, các đe doạ làm phát sinh dự án,mục tiêu mà dự án hướng tới và sự phù hợp giữa mục tiêu này với các mục tiêu khác của tổ chức, mong muốn của các nhóm liện quan, các giả định, các ràng buộc…
+Buyer;;;Là người thực hiện việc thâu mua các sản phẩm, dịch vụ, hoặc kết quả cho một tổ chức.
+Cause and effect diagram;;;là  biểu đồ biểu diễn mối quan hệ giữa các nguyên nhân của vấn đề và tác động mà vấn đề này gây ra. biểu đồ bắt đầu từ nguyên nhân chung nhất và tiếp tục xem xét các nguyên nhân cụ thể hơn dân đến vấn đề đó. biểu đồ này còn được gọi là biểu đồ xương cá hay Ishikawa.
+Change control system;;;là các thủ tục mô tả cách thức đệ trình một yêu cầu thay đổi và xử lý các yêu cầu thay đổi. Hệ thống này theo dõi trạng thái của các yêu cầu và xác định mức thẩm quyền phê duyệt tháy đổi đó. hệ thống cũng mô tả tác động của thay đổi với tình hình thực hiện dự án.
+Check list;;;là công cụ thường dùng trong quản trị chất lượng để đảm bảo rằng các bước trong một tiến trình nào đó được tuân thủ nghiêm ngặt. Công cụ này cũng được sử dụng để xác định các rủi ro bằng cách thu thập các thông tin lịch sử từ các dự án trước đó.
+Code of account;;;là một số hiệu duy nhất được phân cho từng phần từ trong WBS
+Communication;;;là tiến trình trao đổi thông tin, trong đó có ba thành phần cơ bản là người gởi tin, người nhận tin và thông điệp. Truyền thông có thể diễn ra dưới hình thức nói hay viết, chính thức hay phi chính thức. nhà quản trị dự án có thể sử dụng đến 90% quỹ thời gian của mình cho công tác truyền thông.
+Communication management plan;;;kế hoạch quản trị truyền thông – là trong đó chỉ rõ những loại thông tin nào mà các nhóm hữu quan cần, khi nào thông tin sẽ được phân phát cà cách thức phân phát,…
+Communication planning;;;là tiến trình xác định rõ nhu cầu truyền thông của các nhóm hữu quan, các thông tin được tiếp nhận khi nào và như thế nào và ai sẽ nhận thông tin.
+Configuration management;;;quản trị cấu hình – là tiến trình mô tả các đặc điểm của kết quả dự án và đảm bảo rằng các kết quả này là chính xác đầy đủ . quản trị cấu hình kiểm soát sự thay đổi đối với các đặc điểm của một đối tượng và theo dõi sự thay đổi đã được thực hiện hay được yêu cầu và trạng thái của các thay đổi đó. đây thường là một phần của tiến trình kiểm soát sự thay đổi.
+Conflict;;mâu thuẫn;là sự không tương thích về mục tiêu hoặc lợi ích giữa các nhóm hữu quan của dự án. môi trường làm việc của dự án thường được đặc trưng bởi tính mâu thuẫn.
+Constraint;;ràng buộc;là bất cứ một yếu tố nào giới hạn hành động của nhóm dự án hoặc bắt buôc, quy định hành động của nhóm dự án.
+Constrainted optimization method;;;là mô hình lựa chọn dự án gồm các mô hình toán học phức tạp, sử dụng các thuật toán tuyến tính, linh hoạt, phi tuyến tính,…để giải quyết một vấn đề cụ thể nào đó.
+Contingency reserves;;dự phòng cho dự án;đây là chiến lược đối phó rủi ro nhằm tạo ra một quỹ dự phòng về chi phí, thời gian hay nguồn lực để bù trừ cho các đe doạ không thể tránh khỏi và có thể xảy ra đối với tiến độ, chi phí, chất lượng hay phạm vi dự án
+Contract;;hợp đồng;là tài liệu ràng buộc pháp lý giữa hai hay nhiều bên nhằm để có một sản phẩm hay dịch vụ nào đó. hợp đồng thường là tài liệu phổ biến nhất trong quá trình mua hàng của dự án.
+Contract administration;;;tiến trình giám sát năng lực của nhà cung cấp và đảm bảo rằng các yêu cầu của hợp đồng được đáp ứng đầy đủ.
+Contract close-out;;;tiến trình hoàn tất và thanh tán tât cả các khoản của hợp đồng và xác định xem công việc được mô tả trong hợp đồng đã được hoàn tất chính xác và đạt yêu cầu chưa. đây là tiến trình được thực hiện trước kho kết thuc dự án.
+Control chart;;biểu đồ kiểm soát;là một công cụ trong tiến trình kiểm soát chất lượng để đo lường kết quả của các tiến trình theo thời gian và biểu diễn các kết quả này dưới dạng đồ thị. Biểu đồ kiểm soát cũng đo lường các sai lệch nhằm xác định xem mức độ sai lệch đó có nằm trong giới hạn kiểm soát hay không.
+Corrective actions;;;là các hành động được thực hiện nhằm điều chỉnh kết quả dự kiến của dự án đề phù hợp  với kế hoạch đề ra.
+Cost bugeting;;;lập ngân sách cho dự án – là tiến trình phân bổ các chi phí đã ước lượng cho các hoạt động để từ đó lập nên kế hoạch gốc về chi phí (cost baseline). kế hoạch gốc này sẽ được dùng để đo lường các sai lệch và tình hình thực hiện trong suốt vòng đời của dự án.
+Cost control;;;kiểm soát chi phí – tiến trình quản lý các thay đổi đối với chi phí của dự án bằng hệ thống kiểm soát thay đổi chi phí.
+Cost estimating;;;ước lượng chi phí – tiến trình đưa ra một con số ước lượng về chi phí của các nguồn lực cần thiết cho tất cả các công việc trong dự án.
+Cost of quality;;;chi phí chất lượng – tổng chi phí để sản xuất ra một sản phẩm hay dịch vu sao cho phù hợp với tiêu chuẩn về chất lượng. chi phí này bao gồm tất cả các công việc cần thiết để đáp ứng được các yêu cầu của sản phẩm, cũng như chi phí của các công việc phải làm do không phú hợp (non conformance(, do yêu cầu chất lượng. chi phí chất lượng liên quan đến ba loại chi phí: chí phí ngăn ngừa, chi phí đánh giá và chi phí sai hỏng.
+Cost perfomance index (CPI);;;chỉ số hiểu quả chi phí, là một chỉ số được tính toán trong phân tích giá trị thu được với công thức sau CPI=EV/EC
+Cost plus fixed contract;;;hợp đồng chí phí cộ định cộng với một khoản phí – là loại hợp đồng mà khách hàng sẽ chi trả toàn bộ chi phí của dự án cộng với một mức phí cố định khi kết thúc hợp đồng.
+cost reimburable contract;;;hợp đồng hoàn trả chi phí – là hợp đồng mà người mua sẽ chi trả cho người bán toàn bộ chi phí phát sinh, khi sản xuất hàng hoá hay dịch vụ
+Cost variance (CV);;;là môột thông số sử dụng trong phân tích giá trị thu được để đo lường mức hiệu quả về chi phí với công thức CV=…
+Crashing;;;là một kỹ thuật rút ngắn thời gian thực hiện công việc bằng cách bổ sung thêm nguồn lực cho các công việc trên đường găng
+Critical path;;;là một đường trong sơ đồ mạng tập hợp các công việc có thời gian dự trữ bằng zero.
+Critical path method;;;là phương pháp tính toán tiến độ bằng cách xác định thời gian  bắt đầu sớm, kết thúc sớm, bắt đầu muộn, kết thúc muộn cho mỗi công việc trong dự án.
+Critical sucess factor;;;các yếu tố then chốt cho sự thành công của dự án – các yếu tố cần phải được thực hiện để dự án có thể được hoàn tất.
+Decision models;;;mô hình ra quyết định – các mô hình được dùng để lựa chọn dự án, bằng cách xem xét các tiêu chuẩn khác nhau nhằm đưa ra quyết định lực chọn.
+Decision tree analysis;;;là kỹ thuật được sử dụng trong phân tích rủi ro của dự án trong đó xét đến các tình huống với xác xuất xảy ra của từng tình huống và kết quả mà tình huống đó mang lại. mỗi tình huống lại được chia thành các tình huống nhỏ hơn với các xác xuất và mức tác động tương ứng.
+Decomposition;;;là tiến trình chia nhỏ các kết quả của dự án thành các bộ phận nhỏ hơn, dễ quản lý hơn sao cho các công việc, các nhiệm vụ của dự án có thể ước lượng được, lập kế hoạch được.
+Deliverable;;;là một kết quả hay một đầu ra mà một giai đoạn của dự án hay dự án cần phải tạo ra. các kết quả này phải hữu hình, có thể đo lường và được chứng minh.
+Delphi method;;;là một kỹ thuật dùng để thu thập thông tin trong xác định rủi ro dự án, trong đó những người tham gia thường không biết nhau hoặc không cần phải có mặt cùng một nơi.
+Dependencies;;;mối quan hệ phụ thuộc giữa các công việc trong một dự án
+Discretionary dependency;;;là mối quan hệ phụ thuộc  tuỳ chọn, do người lập kế hoạch quyết định. mối quan hệ này còn gọi là mối quan hệ phụ thuộc mềm.
+Duration compression;;;rút ngắn thời gian – là một công cụ trong tiến trình xây dựng tiến độ, trong đó các phân tích toán học được sử dụng để rút ngắn tiến độ dự án mà không ảnh hưởng đế phạm vi dự án. Hai phương pháp phổ biến là crashing và fast tracking.
+Earned value;;;dđo lường tiến triển của dự án đến thời điểm xem xét hoặc giá trị của công việc đã được hoàn tất cho đến thời điểm xem xét.
+Earned value analysis;;;phân tích giá trị thu được – là kỹ thuật phổ biến để đo lường hiệu quả dự án. Kỹ thuật này xem xét các đo lường về tiến độ, chi phí và phạm vi và so sánh tiến triển thực tế với các tiến triển kỳ vọng
+P;;;
+Planned Value (PV);; Kế Hoạch Giá Trị;Ngân sách được duyệt được dùng cho kế hoạch phân bổ cho công việc dựa vào lịch trình thực hiện của activity hoặc WBS. Cũng được gọi là chi phí ngân sách công việc theo lịch trình (BCWS).
+Estimate at completion (EAC);;;ước lượng tại thời điểm hoàn thành – ước lượng chi phí kỳ vọng của dự án hay công việc vào thời điềm hoàn thành công việc
+Estimate to compleate (ETC);;;ước lượng cần phải hoàn thành – thông số đ lường chi phí cần thêm để hoàn tất công việc.
+Evalution criteria;;;tiêu chuẩn đánh giá – phương pháp chia điểm và xếp hạng các nhà cung cấp trong tiến trình quản trị mua sắm.
+Expert jugdement;;;đánh giá của chuyên gia – là một công cụ của nhiều  tiến trình hoạch định. công cụ này dựa trên một cá nhân hay một nhóm có kiến thức và kinh nghiệm liên quan đến lĩnh vực cần xin ý kiến đánh giá.
+External dependency;;;các mối quan hệ phụ thuộc giữa các công việc do các bên không nằm trong dự án tác động.
+Extinction;;;một hình thức kết thúc dự án khi mà các công việc dự án đã được hoàn thành và được các bên hữu quan chấp nhận.
+Failure cost;;chi phí trục trặc;là một khoản chi phí chất lượng phát sinh khi nảy sinh khi phát sinh vấn đề và dự án không tiến triển theo kế hoạch
+Fast tracking;;sắp xếp các công việc song song;là một kỹ thuật rút ngắn thời gian thực hiện dự án bằng cách sắp xếp các công việc song song với nhau thay vì tuần tự như trước đó.
+Feasibility study;;nghiên cứu khả thi;là nghiên cứu được thực hiện nhằm xác định xem dự án có thể triển khai được không, gồm có đánh giá về xác xuất thành công dự án và khả năng tồn tại của các sản phẩm dự án.
+Fixed price contract;;hợp đồng giá cố định;hợp đồng mà người mua trả cho người bán một mức chi phí cố định cho sản phẩm hay dịch vụ cung ứng. đây cũng là loại hợp đồng mà người bán phải gánh chịu nhiều rủi ro nhất.
+Float;;thời gian dự trữ;là khoản thời gian cho phép một công việc có thể được trì hoãn so với thời điểm bắt đầu sớm mà vẫn không làm chậm trễ thời hạn kết thúc dự án. thời gian dự trữ còn được gọi là thời gian tự do (slack time)
+Flowchart;;;là loại biểu đồ mô tả trình tự các bước cần phải thực hiện nhằm đạt được một mục tiêu nào đó. một lưu đồ cũng có thể biểu diễn cách thức mà các thành phần trong một hệ thống tác động liên quan với nhau.
+Force majeure;;;bất khả kháng – là các rủi ro nằm ngoài phạm vi của quản trị rủi ro dự án như bão lụt, động đất, núi lửa, chiến tranh, khủng bố, đình công,..
+Formal acceptance and closure;;chấp nhận và kết thúc hợp đồng;đây là tiến trình gởi một văn bản chính thức cho người bán để thông báo rằng hợp đồng đã hoàn tất và chính thức chấp nhận (nghiệm thu) sản phẩm mà người bán cung cấp.
+Foward pass;;;bước tính xuôi – một kỹ thuật trong tính toán tiến độ nhằm xác định ngàu bắt đầu sớm và kết thúc sớm của công việc cũng như của dự án.
+Funtional manager;;;người đứng đầu các bộ phận chức năng trong tổ chức. đây là một thành phần quan trọng vì quyết định thành công của dự án (chi phối nguồn lực, công nghệ mà dự án sử dụng)
+Funtional organization;;;hình thức tổ chức dự án, trong đó dự án dưới quyền quản lý của một bộ phận chức năng nào đó hoặc luân chuyển quản lý qua nhiều bộ phận chức năng khác nhau. đây là hình thức mà nhà quản trị chức năng có quyền lớn nhất đối với dự án.
+Gantt charts;;;một công cụ để biểu điễn tiến độ của dự án. biểu đồ này cũng có thể biểu diễn đường găng, trình tự trước sau của công việc, thời điểm bắt đầu, kết thúc công việc và các nguồn lực được phân bổ cho công việc đó.
+Goals;;;mục đích – mô tả những gì mà dự án cần làm, cần phải đạt được hay hoàn tất. mục đích phải được phát biểu bằng các ngôn tư cụ thể, rõ ràng, chính xác, có thể đo lường được và gắn với một khuôn khổ thời gian xác định
+GERT;Graphical Evaluation and Review Technique;;một kỹ thuật phân tích toán học dùng để biểu diễn tiến độ và ước lượng thời gian thực hiện công việc. Kỹ thuật này cho phép các tính toán xác xuất, biểu diễn các nhánh có điều kiện và vòng lặp.
+Hard dependency;;;mối quan hệ phục thuộc bắt buộc, không thể thay đổi giữa các công việc
+hard logic;;;như hard dependency
+history information;;;thông tin về các dự án đã thực hiện trước đó
+information distribution;;phân phối thông tin;tiến trình cung cấp thông tin cho các nhóm hữu quan
+Initiation;;khởi sự dự án;công nhận chính thức sự ra đời của dự án.
+integrated change control system;;kiểm soát thay đổi tích hợp - ; là tiến trình ảnh hưởng đến các yếu tố có thể gây ra thay đổi, sau đó xác định xem thay đổi có cần thiết  hay đã xảy ra chưa và tiến hành quản lý các thay đổi. các tiến trình quản lý thay đổi khác được tích hợp với tiến trình này.
+issues;;;các vấn đề, các việc cần giải quyết
+inerative;;;manf tính lặp lại, ví dụ hoạch định không phải thực hiện một lần mà là nhiều lần, trong quá trình thực hiện có thể phải thay đổi nên hoạch định lại.
+kaizen;;;là một lý thuyết về quản lý chất lượng xuất phát từ Nhật bản, hàm ý cải tiến chất lượng liên tục. Tất cảc các thành viên dự án nên liên tục tìm kiếm các cơ hội để cải tiến chất lượng
+lags;;;Một lag là thời gian chờ được chèn vào giữa hai activities. Ví dụ cần 3 ngày sau khi đổ xi măng (cho đủ cứng) để tiếp tục xây hạng mục khác.
+leader;;;người lãnh đạo
+leads;;;Một lead được dùng để ngụ ý rằng một Activitie có thể bắt đầu trước khi hoạt động tiền nhiệm của nó hoàn tất. Ví dụ viết mã phần mềm có thể bắt đầu trước khi hoạt động thiết kế kết thúc 5 ngày
+lessons learned;;;Bài học kinh nghiệm từ các dự án khác
+logical relationships;;;mối quan hệ phụ thuộc giữa hai công việc, trong đó một công việc phải bắt đầu hay kết thúc  trước khi thực hiện (bắt đầu hay kết thúc) một việc khác.
+make or buy analysis;;;phân tích làm hay mua ngoài – là một đầu vào của tiến trình hoạch định mua sắm, trong đó xem xét liệu có hiệu quả hơn về mặt chi phí nếu tổ chức tự sản xuất hay mua ngoài một loại hàng hoá hay dịch vụ nào đó. phân tích mua hay làm không chỉ  thực hiện trên mảng chi phí mà còn cả vấn đề năng lực, kỹ năng, mức sẵn sàng, các bí quyết, giấy phép,…
+mandatory dependency;;;quan hệ phụ thuộc bắt buộc., ví dụ phải thiết kế rồi mới thi công.
+mathematical analysis;;;là một công cụ trong tiến trình xây dựng tiến độ nhằm tính các thời điểm sớm và muộn cho các công việc trong dự án. các tính toán này chưa tính đến giới hạn về nguồn lực.
+matrix organization;;;là một hình thức tổ chức dự án, một nhân viên chịu sự quản lý của Functional manager và Project manager, đây gọi là kiểu quản lý theo ma trận
+metrics;;;một chuẩn đo lường có thể do Project manager chọn cho một dự án cụ thể
+milestone;;;cột mốc thời gian gian trong dự án, có thể để xem lại một số kết quả và đánh giá tình hình trước khi tiếp tục.
+mitigation;;;là một chiền lược giảm khả năng xảy ra và giảm mức độ ảnh hưởng của một rủi ro
+need assessment;;;đánh giá nhu cầu, là tiến trình được thực hiện trong giai đoạn khởi sự dự án. Bước này thường được thực hiện nhằm xem xét các nhu cầu dẫn đến sự hình thành dự án
+net present value (NPV);;giá trị hiện tại ròng;phương pháp này tính giá trị ròng của giá trị hiện tại của các dòng tiền tương lai bằng cách chiết khấu các dòng tiền tương lai này bằng một tỉ suất tương đương với chi phí vốn của doanh nghiệp. dự án có NPV dương thì sẽ tạo ra giá trị cho doanh nghiệp.
+nominal group technique;;;Đây là kỹ thuật thường dùng (không phải luôn luôn) trong các cuộc họp brainstorming , nó xếp loại các ý tưởng tạo ra trong quá trình brainstorming.
+payback period;;thời gian hoàn vốn;một mô hình đánh giá dự án dựa trên cơ sở thời gian để thu hồi số vốn đầu tư ban đầu. dự án có thời gian hoàn vốn ngắn thì được ưa thích hơn mặc dù mô hình có nhược điểm là không tính đến dòng ngân quỹ phát sinh sau thời điểm hoàn vốn và không tính đến giá trị thời gian của tiền tệ.
+performance;;thành quả;các kết quả đã thực hiện được, tiến độ thực hiện được.
+performance measurement;;đo lường thành quả;các công cụ, các biện pháp và quy trình đo lường để đánh giá việc thực hiện dự án.
+Performance reporting;;báo cáo thực hiện;là tiến trình thu thập thông tin liên quan đến tiến triển của dự án và việc hoàn thành dự án, sau đó báo cáo các thông tin này đến các nhóm hữu quan.
+Performance review;;xem xét thành quả;việc thu thập và báo cáo về tình hình và tiến triển của dự án cho nhóm hữu quan. các báo cáo này bao gồm báo cáo thực trạng, báo cáo tiến độ và dự báo. xem xét thành quả là một công cụ của tiến trình báo cáo thực hiện
+PERT;;;program eveluation and review technique – kỹ thuật thẩm định và đánh giá theo chương trình là một kỹ thuật lập kế hoạch tiến độ trong điều kiển rủi ro, cho phép tính đến xác xuất xảy ra của các công việc với 3 giá trị : lạc quan, bi quan và dễ xảy ra nhất.
+Preassignment;;phân công trước;là công cụ trong tiến trình “thu nhận nhân viên” trong đó một kế hoạch dự án được đưa ra để đấu thầu song các nhân viên đã được phân công trước như một phần không thể tách dời của dự án.
+Precedence relationship;;;tương tự logical relationship
+Prevention;;ngăn ngừa/phòng ngừa;ngăn ngừa các lỗi xảy ra trong một tiến trình. Đây là mối quan tâm cơ bản của quản trị chất lượng trong dự án.
+Prevention cost;;chi phí ngăn ngừa;là các chi phí gắn với việc thoả mãn nhu cầu của khách hàng bằng cách sản xuất ra sản phẩm không sai hỏng
+Probability;;;xác xuất – khả năng xảy ra của một sự kiện nào đó.
+Process;;;Tiến trình – làm một tập hợp các bước công việc  được thực hiện theo một trình tự để đạt được mục tiêu xác định
+Procurement;;;mua sắm/mua hàng cho dự án – là tiến trình mua hàng hàng, dịch vụ từ bên ngoài nhằm phục vụ cho dự án.
+Procurement documents;;;tài liệu mua sắm – các tài liệu nhằm mời gọi các nhà cung cấp dự thầu về một sản phẩm hay dịch vụ nào đó. các tài liệu này bao gồm mời đề xuất (RFP), mời cung cấp thông tin (RFI), mời dự thầu (IFB), mời chào giá (RFQ).
+Procurement management plan;;;kế hoạch quản trị mua sắm – tài liệu mô tả cách thức quản trị tiến trình mua sắm trong đó chỉ rõ loại hợp đồng sẽ sử dụng, quyền hạn của nhóm dự án, cách thức tiến trình mua sắm được tích hợp với các tiến trình quản trị khác.
+Product analysis;;;phân tích sản phẩm – mô tả về sản phẩm của dự án nhờ một số công cụ như phân tích giá trị, phân tích chức năng, triển khai chức năng chất lượng, phân tích chia nhỏ sản phẩm…
+Procduct scope;;;phạm vi sản phẩm – bản mô tả các thuộc tính của sản phẩm, được văn bản hoá chính thức.
+Product verification;;;kiểm tra sản phẩm – bước trong tiến trình kết thúc hợp đồng nhằm xác định liệu công việc mô tả trong hợp đồng có được hoàn thành một cách chính xác và đúng theo yêu cầu hay không.
+Program;;;là một nhóm các dự án được phối hợp với nhau, có liên quan với nhau.
+Progressive elaboration;;;xác định dần dần – là một thuộc tính của dự án, có nghĩa là các tính chất, đặc điểm của sản phẩm dự án được làm sáng tỏ và tinh gọn dần dần.
+Project charter;;;hiến chương dự án – là tài liệu thường do nhà tài trợ phê chuẩn nhằm chính thức công bố sự ra đời của dự án và là cơ sở để huy động nguồn lực cho dự án.
+Project communication managment;;;quản trị truyền thông trong dự án – là một trong những lĩnh vực kiến thức  của PMBoK guide để đảm bao sao cho có sự truyền thông phù hợp, kịp thời đến các nhóm hữu quan trong dự án.
+Project cost management;;;quản trị chi phí trong dự án – là một trong những lĩnh vực kiến thức của PMBoK guide liên quan đến hoạch định chi phí, lập ngân sách và kiểm soát chi phí.
+Project humanresource management;;;quản trị nguồn nhân lực trong dự án – là một trong những lĩnh vực kiến thức của PMBoK guide nhằm đảm bảo việc sử dụng hiệu quả nguồn nhân lực trong dự án, gồm có: hoạch định tổ chức, thu nhận nhân viên và phát triển nhóm.
+Project intergration management;;;quaản trị dự án tích hợp – là một lĩnh vực kiến thức của PMBoK guide nhằm phối hợp tất cả các phương diện của dự án.
+Project life cycle;;;Vòng đời dự án – là tập hợp tất cả các giai đoạn từ khi bắt đầu đến khi kết thúc dự án.
+Project management;;;quản trị dự án – là các tiến trình được sử dụng để khởi sự, lập kế hoạch, thực thi, kiểm soát và kết thúc dự án bằng cách áp dụng các kỹ năng, kiến thức, các công cụ và kỹ thuật quản trị dự án để đạt các mục tiêu đề ra.
+Project management office;;;PMO – văn phòng quản trị dự án, là một bộ phận được lập ra để xây dựng và duy trì các thủ tục và các tiêu chuẩn cho các hoạt động quản trị dự án trong tổ chức.
+project management knowledge areas;;;các lĩnh vực kiến thức quản trị dự án – gồm có chín lĩnh vực: quản trị thời gian, quản trị chi phí,, quản trị nguồn nhân lực, quản trị mua sắm, quản trị chất lượng, quản trị rủi ro, quản trị phạm vi và quản trị dự án tích hợp.
+project monitoring;;;hoạt động theo dõi, thu thập thông tin để phục vụ cho công tác kiểm soát dự án.
+Project plan;;;kế hoạch dự án – là bản kế hoạch tích hợp tất kết quả của tất cả các tiến trình hoạch định khác. kế hoạch dự án là tài liệu vô cùng quan trọng để hướng dẫn dự án trong quá trình thực hiện, đồng thời để đánh giá hiệu quả và kiểm soát dự án. kế hoạch dự án còn là một công cụ truyền thông cho các nhóm hữu quan trong dự án.
+Project procurement mangement;;;quản trị mua sắm trong dự án – là một trong chín lĩnh vực quản trị dự án theo PMBoK guide liên quan đến mua sắm hàng hoá và dịch vụ cho dự án.
+Project proposal;;;đề xuất dự án
+Project quality management;;;quản trị chất lượng  dự án – là một trong chín lĩnh vực kiến thức của quản trị dự án, nhằm đảm bảo đáp ứng yêu cầu  về chất lượng của dự án. Quản trị chất lượng gồm có các tiến trình hoạch định chất lượng, đảm bảo chất lượng và kiểm soát chất lượng.
+project record;;;các bản ghi về dự án – là tất cả các thông tin liên quan đến dự án bao gồm các báo cáo, các bản ghi nhớ, tiến độ, kế hoạch và các tài liệu khác.
+project report;;;báo cáo dự án – là kết quả của tiến trình phân phát thông tin, có chứa các thông tin của dự án như: báo cáo thực trạng dự án và các biên bản từ các cuộc họp
+Project risk management;;;quản trị rủi ro dự án – là mộ trong chín lĩnh vực kiến thức của quản trị dự án nhằm xác định rõ và lập kế hoạhc cho các rủi ro tiềm ẩn có thể tác động đến dự án. tiến trình này bao gồm có hoạch định rủi ro, xác định rủi ro, phân tích định tính và định lượng rủi ro, hoạch định các phương án đối phó, theo dõi và kiểm soát rủi ro
+project schedule;;;tiến độ dự án – là bản kế hoạch về mặt thời gian cho các công việc trong dự án cũng như toàn bộ dự án trong đó chỉ rõ thời điểm bắt đầu, kết thúc và thời gian để thực hiện các công việc cũng như toàn bộ dự án.
+project scope;;;phạm vi dự án – phạm vi dự án mô tả các công việc  cần thiết để sản xuất ra sản phẩm hay dịch vụ cho dự án, bao gồm các yêu cầu mô tả cụ thể các đặc điểm và chức năng của sản phẩm hay dịch vụ.
+project scope management;;;quản trị phạm vi dự án – là một tong chín lĩnh vực kiến thức quản trị dự án với trọng tâm là công việc của dự án và chỉ  các công việc cần thiết để hoàn thành dự án. các tiến trình này gồm có khởi sự, hoạch định phạm vi, xác định phạm vi, kiểm tra phạm vi và kiểm soát thay đổi phạm vi.
+project selection criteria;;;tiêu chuẩn lựa chọn dự án – một loạt các tiêu chuẩn để đánh giá dự án, xếp thứ tự ưu tiên và lựa chọn dự án để triển khai. Các tiêu chẩn này có thể là định tính hay định lượng và có thể liên quan đến nhiều lãnh vựa khác nhau như tài chính, marketing, sản xuất, công nghệ, nhân sự, chất lượng….
+project sponsor;;;người tài trợ cho dự án – thường là một nhà quản trị cấp cao trong tổ chức, có quyền hạn phân bổ nguồn lực và hiệu lực hoá các quyết định liên quan đến dự án.
+project time management;;;quản trị thời gian dự án – là một trong chín lĩnh vực kiến thức của quản trị dự án. quản trị thời gian gồm các công việc ước lượng thời gian của các công việc trong dự án, xem xét lại kế hoạch tiến độ, theo dõi và kiểm soát các sai lệch từ kế hoạch tiến độ.
+projectized organiztion;;;tổ chức theo hình thức dự án – trong mô hình này, công ty được tổ chức theo dự án và Project Manager điều khiển dự án. Những cá nhân được phân công vào dự án và báo cáo cho Project manager. Khi thi, nếu bạn thấy chữ “Projectized”, bạn nên nghĩ đến chữ “no home”. Nhân viên chỉ làm các công việc dự án và khi dự án kết thúc họ không có phòng ban để trở về. Họ cần được phân công vào dự án khác hoặc làm công  việc mới. Các mối thông tin liên lạc chủ yếu xảy ra trong dự án.
+quanlitative risk analysis;;;phân tích định tính rủi ro – tiến trình xác định các tác động mà rủi ro có thể gây ra đối với dự án và xác xuất mà rủi ro có thể xảy ra. trên cơ sở đó xếp thứ tự các rủi ro theo mức độ ảnh hưởng của chúng đến mục tiêu dự án.
+quality assurance;;;đảm bảo chất lượng – tiến trình thực hiện đánh giá chất lượng để xác định xem dự án được thực hiện như thế nào nhằm da93m bảo rằng dự án đáp ứng được các tiêu chuẩn về chất lượng của dự án. tiến trình này nên được lặp đi lặp lại trong suốt vòng đời dự án
+quality control;;;kiểm soát chất lượng – tiến trình nhằm giám sát các kết quả công việc để đánh giá xem các kết quả này có thoả mãn được các tiêu chuẩn về chất lượng đã nêu trong kế hoạch quản lý chất lượng không tiến trình kiểm soát chất lượng  sẽ đánh giá xem liệu kết quả cuối cùng có phù hợp với các yêu cầu và mô tả sản phẩm đã được xác định trong suốt các tiến trình hoạch định hay không
+quality management plan;;;kế hoạch quản trị chất lượng – là bản kế hoạch mô tả rõ cách thức mà các thành viên nhóm dự án sẽ thực thi chính sách chất lượng và huy động các nguồn lực  cần thiết để triển khai kế hoạch chất lượng, đồng thời chỉ rõ các trách nhiểm của nhóm dự án trongt việc thực thi chất lượng cũng như tất cả các tiến trình và các thủ tục mà nhóm dự án và tổ chức sẽ sử dụng để thoả mãn các yêu cầu về chất lượng.
+quality planning;;;hoạch định chất lượng – tiến trình xác định các tiêu chẩn chất lượng áp dụng cho dự án và cách thức để đạt được các tiêu chuẩn đó.
+quantitative risk analysis;;;phân tích định lượng rủi ro – tiến trình gắm một giá trị xác xuất với từng rủi ro đã được xác định và đánh giá tác động tiềm ẩn của các rủi ro này đối với các mục tiêu của dự án.
+rebaseline;;;điều chỉnh kế hoạch gốc.
+regulation;;;qui định – là các điều luật hay các quy định bắt buộc được chính phủ hay cơ quan có thẩm quyền ban hành. ngoài ra các tổ chức cũng có quy định riêng của họ. các quy định đòi hỏi phải tuân thủ chặt chẽ.
+requirement;;;yêu cầu – là các đặc điểm hay đặc tính kỹ thuật cần phải tuân thủ của sản phẩm hay dịch vụ dự án.
+resource loading;;;tải trọng nguồn lực – nhu cầu sử dụng từng loại nguồn lực cụ thể cho từng thời kỳ của dự án.
+resource allocation;;;phân bổ nguồn lực – là hoạt động phân bổ nguồn lực cho các công việc trong dự án . sau khi phân bổ nguồn lực, chúng sẽ được tính tải trọng nguồn lực chung của dự án để biết nguồn lực nào bị quá tải (Overlocatteded) tức là nhu cầu lớn hơn mức sẵn sàng của nguồn lực trong thời kỳ đó.
+reserve time;;;thời gian dự phòng – kỹ thuật thêm vào một lượng thời gian nào đó cho từng công việc để dự phòng cho các rủi ro về tiến độ.
+residual risks;;;rủi ro còn lại – rủi ro vẫn còn chưa được giải quyết sau khi đẽ triển khai chiến lược đối phó rủi ro.
+resource calendars;;;lịch làm việc của nguồn lực – thời biểu làm việc của một nguồn lực cụ thể thế nào – mức độ sẵn sàng của nguồng lực đó cho dự án.
+resource capabilities;;;khả năng của nguồn lực – bản mô tả khả năng của nguồn lực, máy móc, nguyên liệu,… được phân bổ cho công việc.
+resource histogram;;;biểu đồ nguồn lực – biểu đồ biểu diễn nhu cầu nguồn lực của toàn bộ dự án theo trục thời gian.
+resoure leveling;;;điều phối nguồn lực – kỹ thuật dịch chuyển các công việc có thời gian tự do hoặc chia nhỏ công việc sao cho vẫn không ảnh hưởng đến thời gian hoàn thành dự án, với mục tiêu làm cho nhu cầu nguồn lực trở nên đều đặn giữa các thời kỳ .
+resource planning;;;hoạch định nguồn lực – là tiến trình xác định tất cả các nguồn lực cần thiết và khối lượng của các nguồn lực này để thực hiện các công việc của dự án.
+resoure rate;;;đơn giá nguồn lực sử dụng cho dự án
+resource requirement;;;yêu cầu nguồn lực – là kết quả của tiến trình hoạch định nguồn lực, trong đó mô tả loại nguồn lực và khối lượng của từng loại cần thiết cho từng công việc trong WBS
+responsibility assigment matrix;;;ma trận phân công trách nhiệm – ma trận này làm rõ các vai trò và trách nhiệm của các cá nhân gắn với từng công việc trong WBS để đảm bảo rằng mỗi yếu tố trong WBS đề được đảm đương.
+revision;;;xem xét lại – là hoạt động điều chỉnh lại tiến độ đã được thông qua trước đó sao cho phù hợp với các thay đổi được thông qua. một thuật ngữ khác của từ này là cập nhật (update)
+reward and recognition system;;;hệ thống đánh giá và khen thưởng – là một công cụ trong tiến trình phát triển nhóm dự án, hệ thống này là cách chính thức để các nhà quản trị cấp cao và nhà quản trị dự án công nhận, khen thưởng và cổ vũ cho các hành vi tốt.
+rework;;;làm lại – là hiện tượng một công việc nào đó phải thực hiện lại, để tuân thủ theo đúng yêu cầu chất lượng hay tiêu chuẩn chất lượng.
+risk;;;" Sự kiện rủi ro là điều được xác định trước mà có thể xảy ra hoặc không; nó có thể có tác động tích cực hoặc tiêu cực lên dự án. Project manager thường chỉ quan tâm đến những mối đe doạ – điều này có thể sai lầm và tác động tiêu cực đến dự án. Đừng quên rằng còn có những tác động tích cực – “rủi ro tốt”, gọi là cơi hội"
+risk management plan;;;kế hoạch quản trị rủi ro – là tiến trình ghi rõ cách thức quản trị các rủi ro trong dự án.
+risk monitoring and controling;;;theo dõi và kiểm soát rủi ro – là tiến trình đối phó với rủi ro khi chúng xảy ra
+risk response plan;;;kế hoạch đối phó rủi ro – là một kế hoạch của tiến trình hoạch định đối phó rủi ro, kế hoạch này mô tả các hành động cần thiết nếu rủi ro lường trước xảy ra. kế hoạch cũng bao gồm tất cảc các rủi ro đã được xác định, mô tả về các rủi ro và các phương diện của dự án bị rủi ro tác động.
+Schedule variance;;;sai lệch tiến độ – là một thông số tính từ phân tích giá trị thu được nhằm đánh giá mức độ thực hiện của dự án về phương diện tiến độ.
+schedule change control system;;;hệ thống kiểm soát thay đổi tiến độ – là hệ thống các tài liệu xác định cách thức các thay đổi về tiến độ sẽ diễn ra và được quản lý như thế nào. hệ thống này cũng lưu trữ các số liệu theo dõi về yêu cầu thay đổi, mô tả các tiến trình để thực hiện thay đổi tiến độ và chi tiết hoá mức quyền hạn, để thông qua các thay đổi về tiến độ.
+schedule development;;;xây dựng tiến độ – là tiến trình tính toán, xây dựng tiến độ các công việc của dự án, kết quả của tiến trình này là bản kế hoạch gốc về tiến độ. bản kế hoạch này xác định các thời điểm bắt đầu và kết thúc công việc, ấn định trình tự thực hiện các công việc và độ dài thời gian, đồng thời thể hiện các phân bổ nguồn lực cho công việc.
+schedule performance index;;;SPI, chỉ số hiệu quả về mặt tiến độ – là một kỹ thuật trong phân tích giá trị thu được nhằm đánh giá hiệu quả về mặt tiến độ.
+schedule updates;;;cập nhật tiến độ – là kết quả của tiến trình kiểm soát tiến độ nhằm điều chỉnh các công việc và ngày giờ cho phù hợp với các thay đổi đã được thông qua hay phù hợp với hành động điều chỉnh.
+scope change control;;;kiểm soát thay đổi phạm vi – tiến trình liên quan đến việc ghi nhận và quản lý các thay đổi so với phạm vi dự án . bất cứ điều chỉnh nào đối với bản WBS đã được thông qua cũng được xem như thay đổi phạm vi . các thay đổi trong phạm vi sản phẩm cũng đòi hỏi thay đổi đối với phạm vi dự án.
+scope changes;;;thay đổi phạm vi – là bất kỳ thay đổi nào đối với WBS đã được thông qua. thay đổi phạm vi có thể đòi hỏi phải có các thay đổi hay cập nhật đối với các mục tiêu, chi phí, các đo lường về chất lượng hay các xem xét về kiểm soát và điều chỉnh tiến độ. thay đổi phạm vi thường dẫn đến điều chỉnh tiến độ.
+scope definition;;;xác định phạm vi – là tiến trình xác định những gì mà dự án cần thực hiện và chỉ những gì cần phải thực hiện để đạt được mục tiêu. sau đó các công việc này sẽ được chia nhỏ thành các phần việc với quy mô nhỏ hơn, dễ quản lý hơn để tạo điều kiện thuận lợi cho công tác lập kế hoạch, ước lượng và kiểm soát.
+scope management plan;;;kế hoạch quản trị phạm vi dự án – là tài liệu phân tích mức độ tin cậy và ổn định của phạm vi dự án, đồng thời ghi nhận lại tiến trình được sử dụng để quản lý phạm vi và các thay đổi đối với phạm vi.
+scope statement;;;là tài liệu chỉ rõ các mục tiêu, kết quả và các yêu cầu của dự án. tài liệu này được xem như tài liệu gốc của các quyết định về dự án trong tương lai. scope statement cũng thường bao gồm một phần lý giải về tính cấp thiết của dự án (Business justification)
+scope verification;;;kiểm tra phạm vi – tiến trình chính thức hoá sự chấp nhận phạm vi dự án và chủ yếu là chú trọng đến chấp nhận kết quả công việc.
+scoring model;;;mô hình cho điểm – là phương pháp lựa chọn các đề xuất dự án trong đó cho điểm và xếp hạng các dự án dựa trên điểm số kết quả.
+screening system;;;hệ thống sàng lọc – là một loạt các tiêu chuẩn hiệu quả được xác định trước nhằm sàng lọc các nhà cung cấp. đây là một công cụ trong tiến trình chọn lực nhà cung cấp.
+secondary risk;;;rủi ro thứ cấp – rủi ro bắt nguồn từ việc thực hiện một chiến lược rủi ro.
+sensitivity analysis;;;phân tích độ nhạy – là một công cụ phân tích rủi ro nhằm đánh giá tác động của sự biến đổi của một hoặc nhiều biến số đến kết quả cuối cùng của dự án.
+slack time;;;thời gian dự trữ.
+soft logic;;;xem discrestionary dependency.
+solicitation;;;mời dự thầu – là tiến trình mời thầu hoặc mời thầu có đề xuất kỹ thuật, hay mời báo giá từ những nhà cung cấp.
+source selection;;;chọn nhà cung cấp – tiến trình thu nhận các hồ sơ thầu hoặc báo giá và lựa chọn ra một nhà cung cấp để thực hiện hay cung ứng sản phẩm, dịch vụ.
+staff acquisition;;;thu nhận nhân viên – tiến trình huy động nguồn nhân lực và phân công nhân sự vào dự án. nhân sự có thể đến từ bên ngoài hoặc bên trong tổ chức.
+staffing pool description;;;mô tả lực lượng nhân sự – là đầu vào của tiến trình thu nhận nhân viên, trong đó xem xét các kinh nghiệm, sở thích cá nhân, cá tính, mức độ sẵn sàng và năng lực chuyên môn của các thành viên tiềm năng của nhóm dự án.
+staffing requirements;;;yêu cầu nhân sự – là một bộ phận của nhu cầu nguồn lực . nhu cầu nhân sự trở thành yếu tố đầu vào của tiến trình hoạch định tổ chức vì danh sách này liệt kê tất cả các loại kỹ năng  đòi hỏi, mức năng lực và các cá nhân hay các nhóm có thể cung cấp kỹ năng này cho dự án đồng thời lhuôn khổ thời gian mà dự án cần đến các kỹ năng này.
+stakeholder;;;nhóm hữu quan – là các cá nhân hay tổ chức có quyền lợi với dự án và ảnh hưởng đến sự thành công của dự án một cách trực tiếp hay gián tiếp.
+standards;;;tiêu chuẩn – là các qui định, hướng dẫn hay các đặc tính cần phải tuân thủ và đã được phê chuẩn bởi một tổ chức có thẩm quyền. tiêu chuẩn là đầu vào của tiến trình hoạch định chất lượng.
+startvation;;;rút bớt nguồn lực – là một trong những hình thức kết thúc dự án trong đó nguồn lực tài chính hoặc nhân sự bị rút khỏi dự án.
+statement of work;;;là tài liệu mô tả chi tiết các mục tiêu của dự án, công việc của dự án, các đặc tính kỹ thuật chính xác và chi tiết của sản phẩm hay dịch vụ yêu cầu và tiến độ của dự án.
+status view meeting;;;họp đánh giá thực trạng dự án – các cuộc họp trong qua trình triển khai dự án nhằm cung cấp các thông tin cập nhật về tiển triển của dự án.
+steering commitee;;;hội đồng tuyển chọn – là một nhóm các nhà quản trị cấp cao trong tổ chức, chịu trách nhiệm chọn lựa và sắp xếp thứ tự ưu tiên giữa các dự án cũng như ảnh hưởng đế một số quyết định quan trọng khác cho dự án. hội đồng này cũng có thể có các đại diện từ các bộ phận chức năng trong tổ chức.
+team building;;xây dựng nhóm;là một trong những công cụ trong tiến trình phát triển nhóm, nhằm tập hợp một nhóm các cá nhân đa dạng, sao cho họ làm việc một cách hiệu quả nhất.
+team development;;phát triển nhóm;là tiến trình nhằm tạo ra môi trường làm việc cới mở, khuyến khích các nhóm hữu quan cũng như để phát triển nhóm dự án thành một nhóm hiệu quả, biết phối hợp và có thể đạt được thành công.
+time and materials contract;;;hợp đồng theo thời gian và nguyên vật liệu – là loại hợp đồng kết hợp giữa hợp đồng giá cố định và hợp đồng chi phí phát sinh, trong đó tổng chi phí được tính trên cơ sở thống nhất trước đơn giá.
+top down estimating;;;ước lượng từ trên xuống. xem thêm analogous estimating
+transference;;chuyển giao;là chiến lược đối phó rủi ro, trong đó rủi ro được chuyển đến một bên thứ 3. ví dụ mua bảo hiểm.
+trend analysis;;phân tích xu hướng;là một kỹ thuật dự báo để đánh giá xem liệu hiệu quả dự án có được cải thiện theo thời gian hay không bằng cách định kỳ phân tích các kết quả dự án.
+trigger;;kích hoạt;là triệu chứng báo hiệu trước rủi ro sắp xảy ra.
+variance at completion;;sai lệch tại thời điểm hoàn thành; một thông số trong kỹ thuật phân tích giá trị thu được nhằm tính sự khác biệt giữa ngân sách tại thời điểm hoàn thành (BAC) với ước lượng chi phí tại thời điểm hoàn thành (EAC). VAC – BAC – EAC
+variance analysis;;phân tích sai lệch;là kỹ thuật phân tích so sánh giá trị thực tế với giá trị kế hoạch . phân tích sai lệch có thể được thực hiện trên phương diện chi phí hoặc tiến độ.
+WBS;Work breakdown structure;cây cấu trúc công việc;là tài liệu xác định kết quả cuối cùng của công việc rồi sau đó chia nhỏ công việc này thành nhiều công việc nhỏ hơn, dễ quản lý hơn. WBS thường được sắp xếp thành các cấp với cấp sau chi tiết hơn cấp trước.
+Work package;;gói công việc;là công việc chi tiết nhất, ở cấp thấp nhất của WBS.
+workaround;;phản ứng đột xuất;là một đối phó rủi ro đột xuất khi một rủi ro không được dự tính trước xảy ra hoặc là một phản ứng chưa được lập kế hoạch trước một rủi ro đã xác định.
