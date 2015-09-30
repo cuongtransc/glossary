@@ -119,3 +119,7 @@ tmp/
 
 # ignore temporary design
 design/
+
+# ignore log data
+logs/*
+
