@@ -10,3 +10,7 @@ flask-wtf
 pytz
 flask-babel
 flup6
+elasticsearch
+titlecase
+flask-log
+
