@@ -1,48 +1,77 @@
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
-from app import app, db
+from app import app
 from app.models import term
 from flask import abort, jsonify, request
-import datetime
-import json
+
+
+# from pprint import pprint
+from elasticsearch import Elasticsearch
+ES_HOST = {
+    "host": "localhost",
+    "port": 9200
+}
+INDEX_NAME = 'glossary'
+
+es = Elasticsearch(hosts=[ES_HOST])
+
+
 
 @app.route('/glossary')
 def glossary():
     return app.send_static_file('glossary.html')
 
 
-@app.route('/api/search', methods=['POST'])
-def search():
-
-    # fake data
-    json_data = {}
-    json_data['en_term'] = 'Accounting Equation'
-    json_data['vi_term'] = 'Phương trình kế toán'
-    json_data['en_desc'] = "A financial relationship at the heart of the accounting model: Assets = Liabilities + Owners' Equity"
-    json_data['vi_desc'] = 'Phản ánh mối quan hệ tài chính, là vấn đề cốt lõi của mô hình kế toán: Tài sản = Nợ phải trả + Vốn chủ sở hữu'
-
-    data = request.get_data()
-    # json_data['en_term'] = data
-
-    return jsonify(json_data)
-
-# @app.route('/myapp/users', methods = ['GET'])
-# def get_all_users():
-#     entities = user.User.query.all()
-#     return json.dumps([entity.to_dict() for entity in entities])
-
-@app.route('/api/glossary/<string:id>', methods = ['GET'])
-# def get_term(id):
-#     entity = term.Term.query.get(id)
-#
-#     if not entity:
-#         abort(404)
-#     return jsonify(entity.to_dict())
-#
+@app.route('/api/glossary/<string:id>', methods=['GET'])
 def get_term(id):
-    entity = term.Term.query.filter(term.Term.id.ilike('%{}%'.format(id))).all()
+    entity = term.Term.query.get(id)
 
     if not entity:
         abort(404)
-    # return jsonify(entity.to_dict())
-    return jsonify(entity[0].to_dict())
+    return jsonify(entity.to_dict())
+
+
+@app.route('/api/search', methods=['GET'])
+def search():
+    max_results = request.args.get('max_results', 10)
+    max_results = int(max_results)
+
+    query = request.args.get('query')
+    entities = term.Term.query.filter(term.Term.id.ilike('%{}%'.format(query))).all()
+
+    if not entities:
+        abort(404)
+
+    # return json.dumps([entity.to_dict() for entity in entities[:max_results]])
+    return jsonify({'results': [entity.to_dict() for entity in entities[:max_results]]})
+
+
+@app.route('/api/v2/search', methods=['GET'])
+def es_search():
+    # max_results = request.args.get('max_results', 10)
+    # max_results = int(max_results)
+    #
+    # query = request.args.get('query')
+    # entities = term.Term.query.filter(term.Term.id.ilike('%{}%'.format(query))).all()
+    #
+    # if not entities:
+    #     abort(404)
+    #
+    # # return json.dumps([entity.to_dict() for entity in entities[:max_results]])
+    # return jsonify({'results': [entity.to_dict() for entity in entities[:max_results]]})
+
+
+    # remote_addr = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+    app.logger.info('{} - {}'.format(request.remote_addr, request.url))
+
+    query = request.args.get('q')
+
+    results = es.search(index=INDEX_NAME, q=query)
+
+    hits = results['hits']['hits']
+
+    if not hits:
+        abort(404)
+
+    return jsonify({'results': hits})
+

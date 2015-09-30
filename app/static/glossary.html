@@ -15,9 +15,6 @@
 
 
     <script type="text/javascript">
-//        var API_URL = '/api/search';
-        var API_URL = '/api/glossary';
-
         var app = angular.module('app', []);
 
         app.directive('ngEnter', function () {
@@ -34,24 +31,41 @@
             };
         });
 
+        //        API_URL = '/api/search';
+        API_URL = '/api/v2/search';
+
         app.controller('Ctrl', function ($scope, $http) {
             $scope.find = function (letter) {
                 if (letter == undefined || letter == '') return;
-//                $http.post(API_URL, {data: letter}, {timeout: 3000}).success(function (response) {
-                $http.get(API_URL + '/' + letter, {timeout: 3000}).success(function (response) {
-                    console.log(response)
 
-                    $scope.data = response
+                console.log(letter)
 
-//                    if(response.error_code == 0){
-//                        $scope.data = response.data;
-//                    }else{
-//                        alert(response.msg);
-//                        $scope.data = response.data
-//                    }
-                }).error(function (response) {
-                    console.log(response)
+                $http.get(API_URL, {
+                    params: {q: letter}
+                }).then(function (response) {
+                    var tmp = response.data['results'];
+                    for (var x in tmp) {
+//                        tmp[x].isShowDesc = false;
+                        tmp[x].isShowDesc = true;
+                    }
+                    $scope.results = tmp;
+                }, function (response) {
+                    $scope.results = []
                 })
+            }
+
+            $scope.show_desc = function (key) {
+                // skip function
+                return
+
+                var obj = $('.desc_' + key)
+//                console.log(obj)
+                if ($scope.results[key].isShowDesc) {
+                    $scope.results[key].isShowDesc = false
+                } else {
+                    $scope.results[key].isShowDesc = true
+                }
+
             }
         })
     </script>
@@ -61,9 +75,32 @@
             margin-top: 50px;
             margin-bottom: 50px;
         }
+
+        /*.glossary {*/
+        /*user-select: none;*/
+        /*-webkit-user-select: none;*/
+        /*}*/
     </style>
 
 </head>
+
+<!--tracking-->
+
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//10.0.0.200:8088/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//10.0.0.200:8088/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 
 <body ng-app="app" ng-controller="Ctrl">
 <div class="container">
@@ -80,7 +117,7 @@
         </div>
     </center>
 
-    <div class="table-responsive">
+    <div class="table-responsive glossary">
         <table class="table table-bordered">
             <thead>
             <tr>
@@ -89,14 +126,41 @@
             </tr>
             </thead>
 
+            <!--<tbody>-->
+            <!--<tr ng-repeat="(key, result) in results" ng-click="show_desc(key)">-->
+            <!--<td>-->
+            <!--<div>{{ result.en_term }}</div>-->
+            <!--<div ng-show="result.isShowDesc" class="desc_{{key}}">-->
+            <!--<hr/>-->
+            <!--{{ result.en_desc }}-->
+            <!--</div>-->
+            <!--</td>-->
+            <!--<td>-->
+            <!--<div>{{ result.vi_term }}</div>-->
+            <!--<div ng-show="result.isShowDesc" class="desc_{{key}}">-->
+            <!--<hr/>-->
+            <!--{{ result.vi_desc }}-->
+            <!--</div>-->
+            <!--</td>-->
+            <!--</tr>-->
+            <!--</tbody>-->
+
             <tbody>
-            <tr>
-                <td ng-bind="data.en_term"></td>
-                <td ng-bind="data.vi_term"></td>
-            </tr>
-            <tr>
-                <td ng-bind="data.en_desc"></td>
-                <td ng-bind="data.vi_desc"></td>
+            <tr ng-repeat="(key, result) in results" ng-click="show_desc(key)">
+                <td>
+                    <div>{{ result['_source'].en_term }}</div>
+                    <div ng-show="result.isShowDesc" class="desc_{{key}}">
+                        <hr/>
+                        {{ result['_source'].en_desc }}
+                    </div>
+                </td>
+                <td>
+                    <div>{{ result['_source'].vi_term }}</div>
+                    <div ng-show="result.isShowDesc" class="desc_{{key}}">
+                        <hr/>
+                        {{ result['_source'].vi_desc }}
+                    </div>
+                </td>
             </tr>
             </tbody>
         </table>
