@@ -10,14 +10,17 @@ from flask import abort, jsonify, request
 import datetime
 import json
 
+import titlecase
+
 #from pymongo import MongoClient
-
 #client = MongoClient('mongodb://localhost:27017/')
-
 #db = client.dict_financial
 
+
 path_dir = 'data'
-filename = 'dict_financial_accounting.csv'
+
+# filename = 'dict_financial_accounting.csv'
+filename = 'dict_economics.csv'
 
 path_file = '{}/{}'.format(path_dir, filename)
 
@@ -35,10 +38,10 @@ with open(path_file) as csvfile:
 
         entity = term.Term(
             id = row['en_term'].strip().lower(),
-            en_term = row['en_term'].strip(),
-            en_desc = row['en_desc'].strip(),
-            vi_term = row['vi_term'].strip(),
-            vi_desc = row['vi_desc'].strip()
+            en_term = titlecase.titlecase(row['en_term'].strip()),
+            en_desc = row['en_desc'].strip().capitalize(),
+            vi_term = row['vi_term'].strip().capitalize(),
+            vi_desc = row['vi_desc'].strip().capitalize()
         )
 
         db.session.add(entity)
