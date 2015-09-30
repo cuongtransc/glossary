@@ -110,10 +110,12 @@ crashlytics-build.properties
 db_repository/
 
 # ignore virtualenv, node module
-flask/
+venv/
 node_modules/
 
 # ignore backup, tmp
 bak/
 tmp/
 
+# ignore temporary design
+design/
